@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.errorpage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
