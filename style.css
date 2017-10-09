@@ -15,6 +15,14 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
 .homepage {
   height: 100%;
   display: flex;
@@ -22,7 +30,8 @@ html, body {
   align-items: center;
   text-align: center;
   background-color: black;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  /*font-weight: 200;*/
 }
 
 .homepage-h1 {
@@ -83,7 +92,6 @@ html, body {
   justify-content: center;
   align-items: center;
   transition: ease-in, 0.65s;
-  /*transition-timing-function: ease-in;*/
   width: 10px;
   height: 10px;
   border-radius: 50%;
