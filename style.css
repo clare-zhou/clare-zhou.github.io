@@ -41,6 +41,7 @@ html, body {
 .homepage-right {
   width: 500px;
   height: 100px;
+  align-items: center;
 }
 
 .homepage-line-left {
@@ -55,7 +56,6 @@ html, body {
 .homepage-line-right {
   position: relative;
   bottom: 50%;
-  position: absolute;
   background-color: white;
   height: 1.5px;
   width: 500px;
