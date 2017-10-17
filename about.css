@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.aboutpage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.aboutpage-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 25%;
+  color: white;
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  padding: 10px 30px 10px 30px;
+  margin: 0px;
+  text-align: center;
+  letter-spacing: 8px;
+  position: fixed;
+}
+
+.aboutpage-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-weight: 200;
+  padding-top: 70px;
+
+}
+
+.aboutpage-info-titles {
+  text-align: right;
+  font-weight: 400;
+  padding-right: 20px;
+
+}
+
+.aboutpage-info-content {
+  text-align: left;
+}
+
+.backarrow-icon {
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  left: 35px;
+}
