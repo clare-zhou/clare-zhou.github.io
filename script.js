@@ -27,7 +27,6 @@
 // 
 // }
 
-$(document).ready(
 
 $(function() {
   $.scrollify({
@@ -43,4 +42,4 @@ $(".scroll").click(function(e) {
    
    $.scrollify.next();
  });
-);
+
