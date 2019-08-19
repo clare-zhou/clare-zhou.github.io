@@ -43,4 +43,4 @@ $(".scroll").click(function(e) {
    
    $.scrollify.next();
  });
-)
+);
