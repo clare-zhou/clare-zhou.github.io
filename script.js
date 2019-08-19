@@ -27,6 +27,8 @@
 // 
 // }
 
+$(document).ready(
+
 $(function() {
   $.scrollify({
     section: '.panel',
@@ -41,3 +43,4 @@ $(".scroll").click(function(e) {
    
    $.scrollify.next();
  });
+)
