@@ -19,6 +19,7 @@ h1 {
   font-weight: 300;
 }
 
+
 /* a {
   text-decoration: none;
   color: #831B4E;
@@ -71,6 +72,14 @@ section {
   color: #831B4E;
 }
 
+.title2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: #453E5F;
+  letter-spacing: 0.15em;
+}
+
 .about {
   height: 100%;
   width: 100%;
@@ -96,7 +105,6 @@ section {
 #about-me-title {
   position: relative;
   top: 20%;
-  font-size: 80px;
   padding-bottom: 30px;
 }
 
@@ -144,8 +152,51 @@ section {
   color: #831B4E;
 }
 
-.portfolio {
-  background-color: #FFF6D8;
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+#projects-title {
+  text-align: center;
+  margin: 0px 0px 120px 0px;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.box {
+  padding: 20px;
+}
+
+.box-img {
+  height: 200px;
+  width: 200px;
+}
+
+.send-note {
+  letter-spacing: 0.1em;
+  font-size: 30px;
+}
+.send-note:hover {
+  color: #8B7EBC;
+}
+
+a {
+  text-decoration: none;
+  color: #453E5F;
+}
+
+b {
+  font-weight: 400;
 }
 
 /* .square {
@@ -164,7 +215,7 @@ section {
   color: #464646;
   font-size: 70px;
   padding: 10px;
-  
+
 } */
 
 /* .homebar {
@@ -203,14 +254,7 @@ section {
   background-color: #F9D4F0;
 } */
 
-a {
-  text-decoration: none;
-  color: #831B4E;
-}
 
-b {
-  font-weight: 400;
-}
 
 
 
@@ -221,7 +265,3 @@ b {
 /*  padding: 10px 30px 10px 30px;*/
 /*  text-align: center;*/
 /*}*/
-
-
-
-
